@@ -13,3 +13,23 @@ I. Higher Level Programming Languages
 - Finds errors and it reports them to you and doesn't produce an executable until you fix them
 
 3. High-level languages are easier to learn and much easier to program in than are machine languages
+
+II. Writing a program
+1. Define the program objectives
+- 1. Understand the requirements of the program
+- 2. Get a clear idea of what you want the program to accomplish
+
+2. Design the program
+- 1. Decide how to program will meet the above requirements
+- 2. What should the user interface be like?
+- 3. How should the program be organized?
+
+3. Write the code
+- 1. Start implementation, translate the design in the syntax of C
+- 2. You need to use a text editor to create what is called a source code file
+
+4. Compile
+5. Run the program
+6. Test and debug the program
+7. Maintain and modify the program
+
