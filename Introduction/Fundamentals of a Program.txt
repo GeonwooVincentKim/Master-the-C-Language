@@ -29,7 +29,22 @@ II. Writing a program
 - 2. You need to use a text editor to create what is called a source code file
 
 4. Compile
+- 1. Translate the source code into machine code (executable code)
+- 2. Consists of detailed instructions to the CPU expressed in a numeric code
+
 5. Run the program
+- The executable file is a program you can run
+
 6. Test and debug the program
+- 1. Just because a program is running, does not mean it works as intended
+- 2. Need to test, to see that your program does what it is supposed to do (may find bugs)
+  = 1. Debugging is the process of finding and fixing program errors
+  = 2. Making mistakes is a natural part of learning
+
 7. Maintain and modify the program
+- 1. Programs are released and used by many people
+- 2. Have to continue to fix new bugs or add new features
+
+8. For the above steps, you may have to jump around steps and repeat steps
+- E.g. when you are writing code, you might find that your plan was impractical
 
