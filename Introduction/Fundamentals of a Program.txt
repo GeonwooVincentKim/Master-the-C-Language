@@ -1,0 +1,15 @@
+I. Higher Level Programming Languages
+1. Compilers
+- 1. A program that translates the high-level language source code into the detaeiled set of machine language instructions the computer requires
+  
+  = Compilation
+    -> 1. Convert Source code (Written in C Language) to the Machine Code (in CS)
+    -> 2. Convert Korean to the English (in Human Language)
+
+- 2. The program does the high-level thinking and the compiler generates the tedious instructions to the cpu
+
+2. Compilers will also check that your program has valid syntax for the programming language that you are compiling
+
+- Finds errors and it reports them to you and doesn't produce an executable until you fix them
+
+3. High-level languages are easier to learn and much easier to program in than are machine languages
