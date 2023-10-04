@@ -48,3 +48,9 @@ II. Writing a program
 8. For the above steps, you may have to jump around steps and repeat steps
 - E.g. when you are writing code, you might find that your plan was impractical
 
+*** 
+Divide and conquer
+- Work in small steps and constantly test
+- Ex) 5 lines of codes, and test it. And another 5 lines of codes, and test it
+***
+
