@@ -1,0 +1,12 @@
+I. Overview (cont'd)
+1. C provides constructs that map efficiently to typical machine instructions and thus is used by programs that were previously implement in assembly language
+
+- 1. Provides low-level access to memory (has many low-level capabilities)
+- 2. Requires minimal run-time support
+
+2. Was invented in 1972 by Dennis Ritchie of Bell Laboratories
+- Ritchie was working on the design of the UNIX operating system
+
+3. Was created as a tool for working programmers
+- 1. Main goal is to be a useful language
+- 2. Easy readability and writability
