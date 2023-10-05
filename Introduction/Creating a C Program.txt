@@ -1,0 +1,30 @@
+I. Compiling
+1. A compiler converts your source code into machine language and detects and reports errors in your code
+
+- The input to the compiler is the file you produce during your editing (source file)
+
+2. Compilation is a two-stage process
+- 1. The first stage is called the preprocessing phase, during which your code may be modified or added to
+
+- 2. The second stage is the actual compilation that generates the object code
+
+3. The compiler examines each program statement and checks it to ensure that is conforms to the syntax and semantics of the language
+
+- 1. Can also recognize structural errors (dead code)
+- 2. Does not find logic errors
+- 3. Typical errors reported might be due to an expression that has unbalanced parentheses (syntactic error), or due to the use of a variable that is not "defined" (semantic error)
+
+II. Compiling (cont'd)
+1. After all ererors are fixed, the compiler will then take each statement of the program and translate it into assembly language
+
+2. The compiler will then translate the assembly language statements into actual machine instructions
+- The output from the compiler is known as object code and it is stored in files called object files (same name as source file with a .obj or .o extension)
+
+3. The standard command to compile your C programs will be cc (or the GNU compiler, which is .gcc)
+- 1. cc -c myprog.c or gcc -c myprog.c
+- 2. If you omit the -c flag, your program will automatically be linked as well
+
+4. In Codeblocks we will be using a menu option from within an IDE to compile
+
+
+
