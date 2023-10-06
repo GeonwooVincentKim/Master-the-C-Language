@@ -9,3 +9,25 @@ MinGW
 -> Minimalist GNU for Windows
 -> GCC Windows Version, TDM-GCC
 
+CS 공부
+- 1. Data Structure
+- 2. Algorithm
+- 3. OS
+- 4. CS
+- 5. Network
+- 6. DB
+
+C -> C++ -> OS -> Network -> Data Structure -> Algorithm
+
+추후 더 나아가 VSCode + MinGW (GCC) 조합 공부
+
+Mac
+-> CLang
+
+Linux
+-> GCC
+
+ 하나 끼워넣고 싶다면 컴퓨터 구조 부터 시작하셔서 CPU, 메모리, 보조기억장치, I/O장치 등 한번 머리에 정리하신 후에
+
+ 운영체제 들어가서 메모리 관리 및 프로세스, 컴파일 과정, 멀티프로세싱 등을 이해하시고, 네트워크의 HTTP, HTTPS와 TCP/IP 프로토콜, REST API 등등 학습해나가시면 좋을거같은데 딱히 순서는 없지만 컴구 먼저 하시고 운영체제 시작하시면 더 좋을거같아요
+
