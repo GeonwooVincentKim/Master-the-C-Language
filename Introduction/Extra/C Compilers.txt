@@ -1,2 +1,2 @@
-https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/
-https://www.quora.com/Why-do-we-need-MinGW-and-Cygwin-Why-cant-we-just-compile-a-Windows-based-GCC-version
+- 1. https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/
+- 2. https://www.quora.com/Why-do-we-need-MinGW-and-Cygwin-Why-cant-we-just-compile-a-Windows-based-GCC-version
