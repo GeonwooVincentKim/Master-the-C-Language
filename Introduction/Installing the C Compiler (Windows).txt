@@ -19,4 +19,21 @@ Download
   = Waiting until the download finish
 
 - 5. Create Icons
-  = Check Create icon on Desktop
+  = 1. Check Create icon on Desktop (But I won't)
+  = 2. Check Add icon to Start Menu
+
+Copy the Cygwin64 path
+- 1. Go to `C:\cygwin64\bin` and copy it
+- 2. Click `This PC` and right click, then click `Properties`
+- 3. Click `Advanced system settings`
+- 4. Click `Environment Variables`
+  = 1. Choose Path that belows `System variables`
+  = 2. Click `Edit`
+  = 3. Click `New` and paste the copied the path
+  = 4. Click `OK`
+
+Check the Cygwin installed by DOS
+- 1. Open CMD
+- 2. Type `cygcheck -c cygwin` and check cygwin installed
+- 3. Type `gcc --version` to check the C compiler installed
+
