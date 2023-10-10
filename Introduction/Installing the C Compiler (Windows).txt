@@ -1,0 +1,22 @@
+Download
+- 1. Choose a download site
+  = http://cygwin.mirror.constant.com
+
+- 2. Select Packages
+  = 1. View - Pending -> Full
+  = 2. Search `gcc-core`
+  = 3. Select new version of `gcc-core` as `11.4.0-1`
+  = 4. Search `gdb`
+  = 5. Select new version of `gdb` as `12.1-1`
+  = 6. Select new version of `libgdbm4` as `1.13-1`
+  = 7. Search `make`
+  = 8. Select new version of `make` as `4.4.1-2`
+
+- 3. Review and confirm changes
+  = Press `next` button
+
+- 4. Progress
+  = Waiting until the download finish
+
+- 5. Create Icons
+  = Check Create icon on Desktop
