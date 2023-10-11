@@ -1,0 +1,62 @@
+CodeLite
+- 1. Don't install CodeLite 17.0.0 - Stable
+  = This is really buggy and has got a lot of issues
+
+- 2. Download Windows 64 installer (newer than CodeLite 17.0.0 - Stable)
+- 3. If you double click the codelite.exe file, popup messages that windows not allows you to install
+  = 1. Show more options
+  = 2. Properties
+  = 3. Check `Unblock` and click `Apply` and `OK` button
+
+- 4. Check `Create a desktop shortcut` and `Create a Quick Launch shortcut`
+
+Configuring CodeLite On Windows
+- 1. Welcome! popup
+  = 1. If you don't see `Welcome!` popup
+    -> Go to `Help` -> `Run the Setup Wizard`
+
+  = 2. Click `Next`
+  = 3. Select Development Profile as `C/C++ development`
+  = 4. Select `Scan` and wait for until CodeLite message pop-up
+    -> If you see `Could not locate any MinGW compiler installed..` click `no`
+       => We already installed it
+
+  = 5. Click `Next` at Setup compilers
+  = 6. Then CodeLite closed up and opened up again
+
+- 2. Manually install compiler
+  = 1. Go to `Settings` -> `Build Settings`
+  = 2. Click the plus button, and navigate to the path of Cygwin compiler
+    -> `C:\cygwin64\bin`
+       => 1. Popup `New compiler found!` messages
+       => 2. Name `cygwin`
+
+  = 3. Click Tools menu bar to see `cygwin` compiler list
+  = 4. Choose `C Compiler`, and then click `...` button
+    -> 1. Select `gcc.exe`
+    -> 2. Or you just input `gcc.exe` next to the `C:\cygwin64\bin\`
+
+  = 5. Choose `Assembler Name`, and then click `...` button
+    -> 1. Select `as.exe`
+    -> 2. Or you just input `as.exe` next to the `C:\cygwin64\bin\`
+
+  = 6. Choose `Linker`, and then click `...` button
+    -> 1. Select `gcc.exe`
+    -> 2. Or you just input `gcc.exe` next to the `C:\cygwin64\bin\`
+
+  = 7. Choose `Shared Object Linker`, and then click `...` button
+    -> 1. Select `gcc.exe` and `-shared -fPIC` should be next to it
+    -> 2. Or you just input `gcc.exe -shared -fPIC` next to the `C:\cygwin64\bin\`
+
+  = 8. Choose `Archive`, and then click `...` button
+    -> 1. Select `ar.exe` and `rcu` should be next to it
+    -> 2. Or you just input `gcc.exe rcu` next to the `C:\cygwin64\bin\`
+
+  = 9. Choose `Make`, and then click `...` button
+    -> 1. Select `gdb.exe` and `rcu` should be next to it
+    -> 2. Or you just input `gdb.exe` next to the `C:\cygwin64\bin\`
+
+  = 10. Click `Apply` and `OK` button
+
+
+
