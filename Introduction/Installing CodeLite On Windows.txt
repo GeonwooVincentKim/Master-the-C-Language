@@ -60,5 +60,36 @@ Configuring CodeLite On Windows
 
 - 3. Create Workspace
   = 1. Click `New` -> `C++` -> `New Workspace` and then set the Workspace Path and Name of workspace
+  = 2. No spaces, special characters, &, dot, and weird characters
+  = 3. Make sure to check `Create the workspace under a separate directory`
+
+- 4. Create a project
+  = 1. `File` -> `New` -> `New Project` or Right click from Workspace1 -> `New` -> `New Project`
+  = 2. Name `Project1`
+  = 3. Category = Console, Type = Single executable (gcc), Debugger = GNU gdb debugger
+    -> Compiler = cygwin, Build System = CodeLite Makefile Generator - UNIX
+
+- 5. Save File
+  = `File` -> `Save File` or `Ctrl + S`
+
+- 6. Project Settings
+  = 1. `Rench` Icon
+  = 2. For Compiler settings
+    -> `Compiler` => `Compiler options` => Select Enable C99 features [-std=c99] and OK
+
+  = 3. For Linker settings
+    -> `Linker` => `Linker options` => Select Static linking [-static] and OK
+
+  = 4. Click `Apply` and then click `OK button`
+
+- 7. Build Project (or Run Project)
+  = 1. `Build` -> `Build Project` (F7)
+  = 2. `Build` -> `Run` (Ctrl + F5)
+
+- 8. Errors while build a project
+  = 1. Go to `Settings` -> `Build Settings`
+  = 2. Check `Tools` that are correct, and mkdir should be blank
+
+
 
 
