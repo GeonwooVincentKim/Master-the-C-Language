@@ -58,5 +58,7 @@ Configuring CodeLite On Windows
 
   = 10. Click `Apply` and `OK` button
 
+- 3. Create Workspace
+  = 1. Click `New` -> `C++` -> `New Workspace` and then set the Workspace Path and Name of workspace
 
 
