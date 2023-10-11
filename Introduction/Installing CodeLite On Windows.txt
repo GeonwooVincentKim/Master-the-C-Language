@@ -90,6 +90,8 @@ Configuring CodeLite On Windows
   = 1. Go to `Settings` -> `Build Settings`
   = 2. Check `Tools` that are correct, and mkdir should be blank
 
-
+- 9. Some good tips when compile
+  = 1. gcc.exe -c => Compile
+  = 2. gcc.exe -o => Linking
 
 
