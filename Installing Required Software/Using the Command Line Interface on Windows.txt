@@ -1,0 +1,41 @@
+Using the Command Line Interface on Windows
+- 1. Check where my Cygwin Home file directory location
+  = C:\cygwin64\home\userComputerName
+
+- 2. Make Projects file directory and move to it
+  = 1. mkdir Projects
+  = 2. cd Projects
+  = 3. ls
+
+- 3. Create C File name "HelloWorld.c" in `Projects` file directory
+- 4. more HelloWorld.c
+  = 1. If no codes, nothing visualize on the CLI screen
+  = 2. If there are codes, codes that you wrote visualize on the CLI screen
+
+- 5. Find where my gcc is
+  = /usr/bin/gcc
+
+- 6. gcc --version
+- 7. Compile code
+  = 1. gcc HelloWorld.c
+  = 2. If there is no errors in your code, your see that the prompt come back immidiately and $
+    -> Otherwise, if there are some errors, it shows which code occured the errors
+
+  = 3. ls (To check exe file has generated - To see a.exe has just created)
+
+- 8. Execute the program
+  = ./a.exe
+
+- 9. Check the C file and exe file created time
+- 10. To change my C file name (exe)
+  = 1. gcc HelloWorld.c -o MyProgram
+  = 2. ls (To check C file name has just changed)
+  = 3. Check that the new exe file (Name MyProgram.exe) has just created
+
+- 11. gcc --help
+  = To see more command options of gcc
+
+- 12. Compile in specific version (Ex - C99)
+  = gcc --std=c99 HelloWorld.c
+
+
