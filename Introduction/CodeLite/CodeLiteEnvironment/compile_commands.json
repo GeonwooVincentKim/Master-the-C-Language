@@ -1,0 +1,9 @@
+[{
+  "file": "E:\\Study\\C\\Master-the-C-Language\\Introduction\\CodeLite\\CodeLiteEnvironment\\NewProject\\main.c",
+  "directory": "E:\\Study\\C\\Master-the-C-Language\\Introduction\\CodeLite\\CodeLiteEnvironment\\NewProject",
+  "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Master-the-C-Language\\Introduction\\CodeLite\\CodeLiteEnvironment\\NewProject\\main.c -o E:\\Study\\C\\Master-the-C-Language\\Introduction\\CodeLite\\CodeLiteEnvironment\\NewProject\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "E:\\Study\\C\\Master-the-C-Language\\Introduction\\CodeLite\\CodeLiteEnvironment\\CodeLiteEnvironmentProject\\main.c",
+  "directory": "E:\\Study\\C\\Master-the-C-Language\\Introduction\\CodeLite\\CodeLiteEnvironment\\CodeLiteEnvironmentProject",
+  "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Master-the-C-Language\\Introduction\\CodeLite\\CodeLiteEnvironment\\CodeLiteEnvironmentProject\\main.c -o E:\\Study\\C\\Master-the-C-Language\\Introduction\\CodeLite\\CodeLiteEnvironment\\CodeLiteEnvironmentProject\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }]

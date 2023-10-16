@@ -1,0 +1,5 @@
+[{
+  "file": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram\\main.c",
+  "directory": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram",
+  "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram\\main.c -o E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }]
