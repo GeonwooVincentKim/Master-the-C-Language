@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=kgw
-Date                   :=16/10/2023
+Date                   :=17/10/2023
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir -p
 LinkerName             :=C:/cygwin64/bin/gcc.exe
@@ -64,7 +64,7 @@ AS       := C:/cygwin64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/int-main.c$(ObjectSuffix) $(IntermediateDirectory)/main.c$(ObjectSuffix) 
 
 
 
@@ -95,6 +95,14 @@ PreBuild:
 ##
 ## Objects
 ##
+$(IntermediateDirectory)/int-main.c$(ObjectSuffix): int-main.c $(IntermediateDirectory)/int-main.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "E:/Study/C/Master-the-C-Language/WriteCode/CFirstProgram/CreateProgram/int-main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/int-main.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/int-main.c$(DependSuffix): int-main.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/int-main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/int-main.c$(DependSuffix) -MM int-main.c
+
+$(IntermediateDirectory)/int-main.c$(PreprocessSuffix): int-main.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/int-main.c$(PreprocessSuffix) int-main.c
+
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
 	$(CC) $(SourceSwitch) "E:/Study/C/Master-the-C-Language/WriteCode/CFirstProgram/CreateProgram/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
