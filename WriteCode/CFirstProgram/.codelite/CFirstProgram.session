@@ -6,13 +6,13 @@
     <TabInfo>
       <wxString Value="E:\Study\C\Master-the-C-Language\WriteCode\CFirstProgram\CreateProgram\main.c" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="9" Name="CurrentLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="E:\Study\C\Master-the-C-Language\WriteCode\CFirstProgram\CreateProgram\int-main.c" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="11" Name="FirstVisibleLine"/>
       <int Value="17" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>

@@ -1,0 +1,10 @@
+Compiler Errors
+- 1. Programming Languages have rules
+- 2. Syntax errors
+  = 1. Something wrong with the structure
+  = 2. Missing semicolon (int x = 5)
+  = 3. printf("I am here");
+
+- 3. Semantic Errors - something wrong with the meaning
+  = a + b; // when it doesn't make sense to add a and b
+
