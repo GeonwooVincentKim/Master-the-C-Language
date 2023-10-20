@@ -4,7 +4,8 @@
 /*
  * Two's complement
  * - https://www.allaboutcircuits.com/textbook/digital/chpt-7/boolean-arithmetic/
- * */
+ * 
+ */
 int main() {
     int min = INT_MIN;
     printf("INT_MIN = %d\n", min);
