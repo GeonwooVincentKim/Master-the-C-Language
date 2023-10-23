@@ -12,8 +12,8 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="E:\Study\C\Master-the-C-Language\WriteCode\CFirstProgram\CreateProgram\int-main.c" Name="FileName"/>
-      <int Value="9" Name="FirstVisibleLine"/>
-      <int Value="17" Name="CurrentLine"/>
+      <int Value="18" Name="FirstVisibleLine"/>
+      <int Value="8" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
