@@ -1,4 +1,8 @@
 [{
+  "file": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\ErrorsProgram\\main.c",
+  "directory": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\ErrorsProgram",
+  "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\ErrorsProgram\\main.c -o E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\ErrorsProgram\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
   "file": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram\\main.c",
   "directory": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram",
   "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram\\main.c -o E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
@@ -6,4 +10,8 @@
   "file": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram\\int-main.c",
   "directory": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram",
   "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram\\int-main.c -o E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram\\int-main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram\\test.c",
+  "directory": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram",
+  "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram\\test.c -o E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\CreateProgram\\test.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
  }]

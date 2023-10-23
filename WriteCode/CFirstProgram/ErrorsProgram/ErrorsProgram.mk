@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=CreateProgram
+ProjectName            :=ErrorsProgram
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=E:/Study/C/Master-the-C-Language/WriteCode/CFirstProgram
-ProjectPath            :=E:/Study/C/Master-the-C-Language/WriteCode/CFirstProgram/CreateProgram
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/CreateProgram
+ProjectPath            :=E:/Study/C/Master-the-C-Language/WriteCode/CFirstProgram/ErrorsProgram
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/ErrorsProgram
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -64,7 +64,7 @@ AS       := C:/cygwin64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/test.c$(ObjectSuffix) $(IntermediateDirectory)/main.c$(ObjectSuffix) $(IntermediateDirectory)/int-main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
 
 
 
@@ -95,29 +95,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/test.c$(ObjectSuffix): test.c $(IntermediateDirectory)/test.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "E:/Study/C/Master-the-C-Language/WriteCode/CFirstProgram/CreateProgram/test.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/test.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/test.c$(DependSuffix): test.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/test.c$(ObjectSuffix) -MF$(IntermediateDirectory)/test.c$(DependSuffix) -MM test.c
-
-$(IntermediateDirectory)/test.c$(PreprocessSuffix): test.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/test.c$(PreprocessSuffix) test.c
-
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "E:/Study/C/Master-the-C-Language/WriteCode/CFirstProgram/CreateProgram/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "E:/Study/C/Master-the-C-Language/WriteCode/CFirstProgram/ErrorsProgram/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 
 $(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
 	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) main.c
-
-$(IntermediateDirectory)/int-main.c$(ObjectSuffix): int-main.c $(IntermediateDirectory)/int-main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "E:/Study/C/Master-the-C-Language/WriteCode/CFirstProgram/CreateProgram/int-main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/int-main.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/int-main.c$(DependSuffix): int-main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/int-main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/int-main.c$(DependSuffix) -MM int-main.c
-
-$(IntermediateDirectory)/int-main.c$(PreprocessSuffix): int-main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/int-main.c$(PreprocessSuffix) int-main.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

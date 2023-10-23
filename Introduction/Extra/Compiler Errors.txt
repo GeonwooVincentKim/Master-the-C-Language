@@ -8,3 +8,12 @@ Compiler Errors
 - 3. Semantic Errors - something wrong with the meaning
   = a + b; // when it doesn't make sense to add a and b
 
+Compiler Warnings
+- 1. Do NOT ignore them!
+- 2. The compiler has recognized an issue with your code that could lead to a potential problem
+- 3. It is only warning because the compiler is still able to genearte correct machine code
+- 4.
+  int total;
+  printf("Total is: %d\n", total);
+
+- 5. warning: 'total' is used uninitialized...

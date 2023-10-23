@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="E:\Study\C\Master-the-C-Language\WriteCode\CFirstProgram\CFirstProgram.workspace">
-  <int Value="1" Name="m_selectedTab"/>
+  <int Value="3" Name="m_selectedTab"/>
   <wxString Value="E:\Study\C\Master-the-C-Language\WriteCode\CFirstProgram\CFirstProgram.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
@@ -12,8 +12,22 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="E:\Study\C\Master-the-C-Language\WriteCode\CFirstProgram\CreateProgram\int-main.c" Name="FileName"/>
-      <int Value="18" Name="FirstVisibleLine"/>
+      <int Value="0" Name="FirstVisibleLine"/>
       <int Value="8" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="E:\Study\C\Master-the-C-Language\WriteCode\CFirstProgram\CreateProgram\test.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="E:\Study\C\Master-the-C-Language\WriteCode\CFirstProgram\ErrorsProgram\main.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="7" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
