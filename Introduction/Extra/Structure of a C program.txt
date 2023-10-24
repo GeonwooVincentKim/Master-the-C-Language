@@ -1,0 +1,24 @@
+Case sensitive
+- 1. Uppercase `Int` in C is not going to compile
+- 2. Uppercase and lowercase are distinct
+- 3. It doesn't matter where you start typing your line
+  = 1. Can type it at the beginning
+  = 2. Can put everything on the same line if you want some of it
+
+- 4. Syntax detail = All the statements are ending in a semicolon
+
+Functions
+- 1. Main function may call other functions
+- 2. main - main routine and then the semicolons that end
+- 3. int (Integer) main and return the function
+  = Depends the type of main, it could be `void` and don't have to return it
+
+- 4. Sometimes in the main you'll see this keyword named void - int main(void)
+  = means that the main program doesn't accept any parameters or any data
+  = void - no data, empty parentheses now because the main is a keyword
+
+Readable code
+- 1. Adding new lines and add indentation after each line of code, it makes it easier to read
+- 2. Can easily identify that lines are inside of a block of code
+  = It has brackets
+

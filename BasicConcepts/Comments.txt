@@ -1,0 +1,65 @@
+Comments
+- 1. Comments are used in a program to document a program and to enhance its readability
+- 2. There to remind you, or someone else reading your code, what the program does or what a particular line of code is doing
+
+- 3. Comments are ignored by the compiler
+- 4. Comments are very useful
+  = 1. A programmer may return to a program that he coded six months ago and may not remember the purpose of a particular function or line of code
+
+  = 2. A simple comment can save a significant amount of time otherwise wasted on having to re-understand the code
+
+Syntax
+- 1. There are two ways to add comments into a C program
+  = 1. By using the two characters / and *
+    -> 1. Marks the beginning of the comment
+    -> 2. These types of comments have to be terminated
+    -> 3. To end the comment, the characters * and / are used without any embedded spaces
+    -> 4. All characters included between the opening /* and the closing */ are treated as part of the comment
+
+    -> 5. Referred to as a multi-line comment
+
+  = 2. By using two consecutive slash characters //
+    -> 1. Any characters that follow these slashes up to the end of the line are ignored by the compiler
+
+    -> 2. Single line comment
+
+Style
+
+/*
+* Written by Someone
+* Copyright 2017
+*/
+
+You can also embellish comments to make them stand out:
+/******************************************************
+* This is a very important comment    *
+* so please read this,     *
+******************************************************/
+
+You can add a comment at the end of a line of a code
+
+printf("Hello, nope!");    // This line displays a quotation
+
+
+Use of Comments
+- 1. It is possible to insert so many comments into a program that the readability of the program is actually degraded instead of improved!
+
+- 2. You need to intelligently use comments
+- 3. It is a good idea to get into the habit of inserting comment statements into the program as the program is being written or typed in
+
+  = 1. Easier to document the program while the particular program logic is still fresh in your mind
+  = 2. Reap the benefits of the comments during the debug phase, when program logic errors are being isolated and debugged
+
+- 4. A comment can helps you read through the program, but it can also help point the way to the source of the logic mistake
+
+- 5. Self documenting comments by using meaningful names
+
+/*
+Author: Name
+Purpose: This program prints out my name to the screen
+Date: 20xx-xx-xx
+*/
+
+
+
+
