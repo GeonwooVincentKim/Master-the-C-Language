@@ -1,0 +1,5 @@
+[{
+  "file": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CChallenge\\CTest\\test.c",
+  "directory": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CChallenge\\CTest",
+  "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CChallenge\\CTest\\test.c -o E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CChallenge\\CTest\\test.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }]
