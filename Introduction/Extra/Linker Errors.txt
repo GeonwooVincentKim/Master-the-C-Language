@@ -1,0 +1,3 @@
+Linker Errors
+- 1. The linker is having trouble linking all the object files together to create an executable
+- 2. Usually there is a library or object file that is missing

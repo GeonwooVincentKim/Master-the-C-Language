@@ -1,0 +1,8 @@
+Logic Errors
+- 1. Errors or bugs in your code that cause your program to run incorrectly
+- 2. Logic errors are mistakes made by the programmer
+- 3. Suppose we have a program that determines if a person can vote in an election and you must be 18 years or older to vote
+
+if (age > 18) {
+  "Yes, you can vote!";
+}

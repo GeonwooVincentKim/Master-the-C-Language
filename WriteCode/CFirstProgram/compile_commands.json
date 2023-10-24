@@ -1,4 +1,8 @@
 [{
+  "file": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\LinkerErrors\\main.cpp",
+  "directory": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\LinkerErrors",
+  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe -c E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\LinkerErrors\\main.cpp -o E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\LinkerErrors\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
   "file": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\ErrorsProgram\\main.c",
   "directory": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\ErrorsProgram",
   "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\ErrorsProgram\\main.c -o E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CFirstProgram\\ErrorsProgram\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"

@@ -1,0 +1,8 @@
+Runtime Errors
+- 1. Errors that occur when the program is executing
+- 2. Some typical runtime errors
+  = 1. Divide by zero
+  = 2. File not found
+  = 3. Out of memory
+
+- 3. Can cause your program to 'crash'
