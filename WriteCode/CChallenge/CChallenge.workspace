@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="CChallenge" Database="" Version="10000">
-  <Project Name="CTest" Path="CTest/CTest.project" Active="Yes"/>
+  <Project Name="CTest" Path="CTest/CTest.project" Active="No"/>
+  <Project Name="CPreprocessor" Path="CPreprocessor/CPreprocessor.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="CTest" ConfigName="Debug"/>
+      <Project Name="CPreprocessor" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="CTest" ConfigName="Release"/>
+      <Project Name="CPreprocessor" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

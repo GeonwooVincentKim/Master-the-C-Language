@@ -1,0 +1,17 @@
+Overview
+- 1. In our first challenge, you should have noticed that there was a line of code that included the word "printf"
+
+- 2. printf("Hi, my names is Jason");
+- 3. printf() is a standard library function
+  = 1. It outputs information to the command line (the standard output stream, which is the command line by default)
+
+  = 2. The information displayed is in based on what appears between the parentheses that immediately follow the function name (printf)
+
+  = 3. Also notice that this line does end with a semicolon
+
+Print f Function
+- 1. Probably the most common function used in C
+- 2. Provides an easy and convenient means to display program results
+- 3. Not only can simple phrases be displayed, but the values of variables and the results of computations can also be displayed
+
+  = Used for debugging
