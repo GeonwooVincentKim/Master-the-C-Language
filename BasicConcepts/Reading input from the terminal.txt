@@ -1,0 +1,55 @@
+Overview
+- 1. We have discussed output, now lets learn a bit about input
+- 2. Very useful to ask the user to enter data into a program
+  = Via the terminal / console
+
+- 3. The C library contains several input functions, and scanf() is the most general of them
+  = Can read a variety of formats
+
+- 4. Reads the input from the standard input stream stdin and scans that input according to the format provided
+
+  = Format can be a simple constant string, but you can specify %s, %d, %c, %f, etc., to read strings, integer, character or floats
+
+- 5. If the stdin is input from the keyboard then next is read in because the keys generate text characters: letters, digits, and punctuation
+
+  = 1. When you enter the integer 2014, you type the charaters 2 0 1 and 4
+  = 2. If you want to store that as a numerical value rather than as a string, your program has to convert the string character-by-character to a numerical value and this is the job of the scanf function
+
+Scanf()
+- 1. Like printf(), scanf() uses a control string followed by a list of arguments
+  = Control string indicates the destination data types for the input stream of characters
+	
+- 2. The printf() function uses variable names, constants, and expressions as its argument list
+- 3. The scanf() function uses pointers to variables
+  = You do not have to know anything about pointers to use the function
+
+- 4. Remember these 3 rules about scanf
+  = 1. Returns the number of items that is successfully reads
+  = 2. If you use scanf() to read a value for one of the basic variable types we've discussed, precede the variable name with an &
+
+  = 3. If you use scanf() to read a string into a charactert array, don't use an &.
+
+- 5. The scanf() function uses whitespace (newlines, tabs, and spaces) to decide how to divide the input into separate fields
+
+- 6. Scanf is the inverse of printf(), which converts integers, floating-point numbers, characters, and C strings to text that is to be displayed onscreen
+
+  = One of the reason why %s doesn't have & when use scanf
+    -> https://stackoverflow.com/questions/45215417/how-does-s-work-in-c-without-in-scanf#:~:text=Again%2C%20you%20do%20not%20need,you%20pass%20a%20pointer%20directly.
+
+Scanf() example
+
+#include <stdio.h>
+int main() {
+  char str[100];
+  int i;
+
+  printf("Enter a value:");
+  scanf("%s %d", str &i);
+
+  printf("\nYou entered: %s %d ", str, i);
+  return 0;
+}
+
+
+
+
