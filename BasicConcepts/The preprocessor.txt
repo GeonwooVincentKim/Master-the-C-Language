@@ -1,0 +1,41 @@
+Overview
+- 1. Another unique feature of the C language that is not found in many other higher-level programming languages
+
+- 2. Allows for programs to be easier to develop, easier to read, easier to modify, and easier to port to different computer systems
+
+- 3. Part of the C compilation process that recognizes special statements
+  = 1. Analyzes these statements before analysis of the C program itself takes place
+  = 2. An introduction to your compiler to do something before compiling the source code
+  = 3. Could be anywhere in your code
+
+Overview (cont'd)
+- 1. Preprocessor statements are identified by the presence of a pound sign, #, which must be the first non-space character on the line
+
+- 2. Our first "challenge" used a preprocessor directive, specifically the #include directive
+- 3. We will utilize the preprocessor to:
+  = 1. Create are own constatns and macros with the #define statement
+  = 2. Build your own library files with the #include statement
+  = 3. Make more powerful programs with the conditional #ifdef, #endif, #else, and #ifndef Statements
+
+- 4. We will cover the above in future lectures
+
+#include
+1. Overview
+- 1. Basic concept in C
+- 2. The #include statement is a preprocessor directive
+- 3. #include <stdio.h>
+- 4. It is not strictly part of the executable program, however, the program won't work without it
+- 5. The symbol # indicates this is a preprocessing directive
+  = 1. An instruction to your compiler to do something before compiling the source code
+  = 2. Many preprocessing directives
+  = 3. Are usually some at the beginning of the program source file, but they can be anywhere
+  = 4. Similar to the import statement in Java
+
+
+
+
+
+
+
+
+
