@@ -8,7 +8,10 @@ Overview
 
 - 4. Reads the input from the standard input stream stdin and scans that input according to the format provided
 
-  = Format can be a simple constant string, but you can specify %s, %d, %c, %f, etc., to read strings, integer, character or floats
+  = 1. Stdin is a stream
+    -> Error Stream, Standard Stream, Standard Output Stream
+
+  = 2. Format can be a simple constant string, but you can specify %s, %d, %c, %f, etc., to read strings, integer, character or floats
 
 - 5. If the stdin is input from the keyboard then next is read in because the keys generate text characters: letters, digits, and punctuation
 
@@ -20,6 +23,8 @@ Scanf()
   = Control string indicates the destination data types for the input stream of characters
 	
 - 2. The printf() function uses variable names, constants, and expressions as its argument list
+  = Double quotes, inside the double quotes, format specifiers
+
 - 3. The scanf() function uses pointers to variables
   = You do not have to know anything about pointers to use the function
 
