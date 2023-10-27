@@ -1,0 +1,11 @@
+Overview
+- 1. Remember that a program needs to store the instructions of its program and the data that it acts upon while your computer is executing that program
+
+  = 1. This information is stored in memory (RAM)
+  = 2. RAM's contents are lost when the computer is turned off
+  = 3. Hard drives store persistent data
+
+- 2. You can think of RAM as ordered sequence of boxes
+  = 1. The box is full when it represents 1 or the box it empty when it represents 0
+  = 2. Each box represents one binary digit, either 0 or 1 (true and false)
+  = 3. Each box is called a bit
