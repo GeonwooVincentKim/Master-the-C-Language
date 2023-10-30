@@ -27,4 +27,70 @@ Variables
 - 3. Variables are types of data may change or be assigned values as the program runs
 - 4. Variables are the names you give to computer memory locations which are used to store values in a computer program
 
+- 5. For example, assume you want to store two values 10 and 20 in your program and at a later stage, you want to use these two values
+
+  = 1. Create variables with appropriate names
+  = 2. Store your values in those two variables
+  = 3. Retrieve and use the stored values from the variables
+
+Naming Variables
+- 1. The rules for naming variables in C is that all names must begin with a letter or underscore (_) and can be followed by any combination of letters (upper or lowercase), underscores, or the digits 0-9
+
+- 2. Ex) Jason, myFlag, i, J5x7, my_data _anotherVariable
+
+Naming Variables (cont'd)
+- 1. The below lists some examples of invalid variable names
+- 2. Example
+  = 1. temp$value - $ is not a valid character
+  = 2. my flag = embedded spaces are not permitted
+  = 3. 3Jason - variable names cannot start with a number
+  = 4. int = int is a reserved word
+
+- 3. Use meaningful names when selecting variable names
+  = Can dramatically increase the readabiltity of a program and pay off in the debug and documentation phases
+
+Data Types
+- 1. Some types of data in programs are numbers, letters or words
+  = Computer needs a way to identify and use these different kinds
+
+- 2. A data type represents a type of the data which you can process using your program
+  = 1. Examples include ints, floats, doubles, etc.
+  = 2. Also correspond to byte sizes on the platform of your program
+
+- 3. Primitive data types are types that are not objects and store all sorts of data
+
+Declaring Variables
+- 1. Declaring a variable is when you specify the type of the variable followed by the variable name
+  = Specifies to the compiler how a particular variable will be used by the program
+
+- 2. For example, the keyword int is used to declare the basic integer variable
+  = 1. First comes int, and then the chosen name of the variable, and then a semicolon
+    -> Type-specifier variable-name;
+
+  = 2. To declare more than one variable, you can declare each variable separately, or you can follow the int with a list of names in which each name is separated from the next by a comma
+
+  = 3. C requires that all program variables be declared before they are used in a program
+ 
+- 4. Ex)
+  = 1. int x;
+  = 2. int x, y, z;
+
+- 5. The above creates variables but does not provide values for them
+  = We can assign a variable a value by using the = operator
+    -> x = 112;
+
+Initializing Variables
+- 1. To initialize a variable means to assign it a starting, or initial, value
+- 2. This can be done as part of the declaration
+  = Follow the variable name with the assignment operator (=) and the value you want the variable to have
+
+- 3. Ex)
+  = 1. int x = 21;
+  = 2. int y = 32, z = 14;
+  = 3. int x, z = 94;  /* valid, but poor, form */
+
+- 4. In the last line, only z is initialized
+  = It is best to avoid putting initialized and noninitialized variables in the same declaration statement
+
+
 
