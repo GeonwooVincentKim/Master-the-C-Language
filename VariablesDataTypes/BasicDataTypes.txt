@@ -1,0 +1,6 @@
+Overview
+- 1. We understand that C supports many differetn types of variables and each type of variable is used for storing kind of data
+
+  = 1. Types that store integers
+  = 2. Types that store nonintegral numerical values
+  = 3. Types that store characters
