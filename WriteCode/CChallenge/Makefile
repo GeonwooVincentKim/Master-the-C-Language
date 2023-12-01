@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ CTest - Debug ]----------"
-	@cd "CTest" && "$(MAKE)" -f  "CTest.mk"
+	@echo "----------Building project:[ CDataTypes - Debug ]----------"
+	@cd "CDataTypes" && "$(MAKE)" -f  "CDataTypes.mk"
 clean:
-	@echo "----------Cleaning project:[ CTest - Debug ]----------"
-	@cd "CTest" && "$(MAKE)" -f  "CTest.mk" clean
+	@echo "----------Cleaning project:[ CDataTypes - Debug ]----------"
+	@cd "CDataTypes" && "$(MAKE)" -f  "CDataTypes.mk" clean
