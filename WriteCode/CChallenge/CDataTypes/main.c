@@ -4,7 +4,7 @@
 int main(int argc, char **argv)
 {
     _Bool myBoolean = 1; // C89 Standard
-    bool myBoolean1 = true; // You have to use stdbool header if 
+    bool myBoolean1 = true; // You have to use stdbool header
 	printf("hello world\n");
     
 	return 0;

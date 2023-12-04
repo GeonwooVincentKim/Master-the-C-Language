@@ -1,0 +1,26 @@
+Enums (cont'd)
+- 1. To declare a variable to be of type enum primaryColor
+  = 1. Use the keyword enum
+  = 2. Followed by the enumerated type name
+  = 3. Followed by the variable list. So the statement
+
+- 2. enum primaryColor, myColor, gregsColor;
+- 3. Defines the two variables myColor and gregsColor to be of type primaryColor
+  = 1. The only permissible values that can be assigned to these variables are the names red, yellow, and blue
+  = 2. myColor = red;
+
+- 4. Another example
+  = enum month {January, February, March, April, May, June, July, August, September, October, November, December};
+
+Enums as ints
+- 1. The compiler actually treats enumeration indentifiers as integer constants
+  = First name in list is 0
+
+enum month thisMonth;
+thisMonth = February;
+
+- 2. The value 1 is assigned to thisMonth (and not the name February) because it is the second identifier listed inside the enumeration list
+
+- 3. If you want to have a specific integer value associated with an enumeration identifier, the integer can be assigned to the identifer when the data type is defined
+
+
