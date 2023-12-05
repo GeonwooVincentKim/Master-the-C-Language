@@ -1,4 +1,4 @@
-Enums (cont'd)
+1. Enums (cont'd)
 - 1. To declare a variable to be of type enum primaryColor
   = 1. Use the keyword enum
   = 2. Followed by the enumerated type name
@@ -12,7 +12,8 @@ Enums (cont'd)
 - 4. Another example
   = enum month {January, February, March, April, May, June, July, August, September, October, November, December};
 
-Enums as ints
+
+2. Enums as ints
 - 1. The compiler actually treats enumeration indentifiers as integer constants
   = First name in list is 0
 
@@ -22,5 +23,73 @@ thisMonth = February;
 - 2. The value 1 is assigned to thisMonth (and not the name February) because it is the second identifier listed inside the enumeration list
 
 - 3. If you want to have a specific integer value associated with an enumeration identifier, the integer can be assigned to the identifer when the data type is defined
+
+enum direction {up, down, left = 10, right};
+- 4. An enumerated data type direction is defined with the values up, down, left, and right
+- 5. 1 to down because it appears next
+- 6. 10 to left because it is explicitly assigned this value
+- 7. 11 to right because it appears immediately after left in the list
+
+
+3. Char
+- 1. Chars represent a single character such as the letter 'a', the digit character '6', or a semicolon (';')
+- 2. Character literals use single quotes such as 'A' or 'Z'
+- 3. You can also declare char variables to be unsigned
+  = Can be used to explicitly tell the compiler that a particular variable is a signed quantity
+
+- 4. We will talk about a character string in another lecture, much different than a single character
+
+
+4. Declaring a char
+
+char broiled;   /* declare a char variable */
+broiled = 'T';  /* OK */
+broiled = T;    /* NO! Thinks T is a variable */
+broiled = "T";  /* NO! Thinks "T" is a string */
+
+- 1. If you omit the quotes, the compiler thinks that T is the name of a variable
+- 2. If you use double quotes, it hinks you are using a string
+- 3. You can also use the numerical code to assign values
+
+char grade = 65; /* ok for ASCII, but poor style */
+
+5. Escape Characters
+- 1. C contains special characters that represent actions
+  = 1. Backspacing
+  = 2. Going to the next line
+  = 3. Making the terminal bell ring (or speaker beep)
+
+- 2. We can represent these actions by using special symbol sequences
+  = Called escape sequences
+
+- 3. Escape sequences must be enclosed in single quotes when assigned to a character variable
+
+char x = '\n';
+
+- 4. And then print the variable `x` to advance the printer or screen one line
+
+
+6. Escape Characters (cont'd)
+- 1. \a -> Alert(ANSI C).
+- 2. \b -> Backspace.
+- 3. \f -> Form feed.
+- 4. \n -> Newline
+- 5. \r -> Carriage return.
+- 6. \t -> Horizontal tab.
+- 7. \v -> Vertical tab.
+- 8. \\ -> Backslach (\).
+- 9. \' -> Single quote (').
+- 10. \" -> Double quote (").
+- 11. \? -> Question mark (?).
+- 12. \0oo -> Octal value. (`o` represents ac octal digit.)
+- 13. \xhh -> Hexadecimal value (`h` represents a hexadecimal digit.)
+
+
+
+
+
+
+
+
 
 
