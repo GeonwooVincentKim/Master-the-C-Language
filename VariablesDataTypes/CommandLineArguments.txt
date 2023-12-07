@@ -1,0 +1,23 @@
+Overview
+- 1. There are times when a program is developed that requires the user to enter a small amount of information at the terminal
+- 2. This information might consist of a number indicating the triangular number that you want to have calculated or a word that you want to have looked up in a dictionary
+
+- 3. Two ways of handling this
+  = 1. Requesting the data from the user
+  = 2. Supply the information to the program at the time the program is executed (command-line arguments)
+
+- 4. We know that the main() function is a special function in C
+- 5When main() is called by the runtime system, two arguments are actually passed to the function
+  = 1. The first argument (argc for argument count) is an integer value that specifies the number of arguments typed on the command line
+
+  = 2. The second argument (argv for argument vector) is an array of character pointers (strings)
+
+- 6. The first entry in this array is a pointer to the name of the program that is executing
+
+Overview (cont'd)
+
+int main (int argc, chat *argv[])
+{
+  ...
+}
+
