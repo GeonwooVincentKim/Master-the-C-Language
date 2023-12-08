@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="CChallenge" Database="" Version="10000">
   <Project Name="CTest" Path="CTest/CTest.project" Active="No"/>
   <Project Name="CPreprocessor" Path="CPreprocessor/CPreprocessor.project" Active="No"/>
-  <Project Name="CDataTypes" Path="CDataTypes/CDataTypes.project" Active="Yes"/>
+  <Project Name="CDataTypes" Path="CDataTypes/CDataTypes.project" Active="No"/>
+  <Project Name="COperators" Path="COperators/COperators.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="CTest" ConfigName="Debug"/>
       <Project Name="CPreprocessor" ConfigName="Debug"/>
       <Project Name="CDataTypes" ConfigName="Debug"/>
+      <Project Name="COperators" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="CTest" ConfigName="Release"/>
       <Project Name="CPreprocessor" ConfigName="Release"/>
       <Project Name="CDataTypes" ConfigName="Release"/>
+      <Project Name="COperators" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
