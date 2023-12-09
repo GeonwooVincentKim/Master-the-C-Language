@@ -1,4 +1,8 @@
 [{
+  "file": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CChallenge\\COperators\\main.c",
+  "directory": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CChallenge\\COperators",
+  "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CChallenge\\COperators\\main.c -o E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CChallenge\\COperators\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
   "file": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CChallenge\\CDataTypes\\main.c",
   "directory": "E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CChallenge\\CDataTypes",
   "command": "C:/cygwin64/bin/gcc.exe -c E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CChallenge\\CDataTypes\\main.c -o E:\\Study\\C\\Master-the-C-Language\\WriteCode\\CChallenge\\CDataTypes\\main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
