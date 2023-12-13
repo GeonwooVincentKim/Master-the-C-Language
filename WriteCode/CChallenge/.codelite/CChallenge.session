@@ -6,7 +6,7 @@
     <TabInfo>
       <wxString Value="E:\Study\C\Master-the-C-Language\WriteCode\CChallenge\COperators\main.c" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="1" Name="CurrentLine"/>
+      <int Value="3" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
