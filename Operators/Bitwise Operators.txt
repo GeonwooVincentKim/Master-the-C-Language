@@ -1,0 +1,19 @@
+1. Overview
+- 1. C offers bitwise logical operators and shift operators
+  = 1. Look something like the logical operators you saw earlier but are quite differetn
+  = 2. Operator on the bits in integer values
+
+- 2. Not used in the common program
+- 3. One major use of the bitwise AND, &, and the bitwise OR, |, is in operations to test and set individual bits in an integer variable
+
+  = Can use individual bits to store data that involve one of two choices
+
+- 4. You could use a single integer variable to store several characteristics of a person
+  = 1. Store whether the person is male or female with one bit
+  = 2. Use three other bits to specify whether the person can speak French, German, or Italtian
+  = 3. Another bit to record whether the person's salary is $50,000 or more
+  = 4. In just four bits you have a substantial set of data recorded
+
+
+
+
