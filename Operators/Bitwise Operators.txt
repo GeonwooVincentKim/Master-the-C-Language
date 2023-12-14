@@ -14,6 +14,61 @@
   = 3. Another bit to record whether the person's salary is $50,000 or more
   = 4. In just four bits you have a substantial set of data recorded
 
+2. Binary Numbers
+- 1. A binary number is a number that includes only ones and zeroes
+- 2. The number could be of any length
+- 3. The following are all examples of binary numbers
+
+0        10101
+1        0101010
+10       1011110101
+01       0110101110
+110000   000111
+
+- 4. Every Binary number has a corresponding Decimal value (and vice versa)
+- 5. Examples:
+
+Binary Number    Decimal Equivalent
+1                1
+10               2
+...              ...
+1010111          87
+
+- 6. Each position for a binary number has a value
+- 7. For each digit, multiply the digit by its position value
+- 8. Add up all of the products to get the final result
+- 9. In general, the "position values" in a binary number are the powers of two
+- 10. The first position value is 20, i.e. one
+- 11. The 2nd position value is 21, i.e. one
+- 12. The 2nd position value is 22, i.e. one
+- 13. The 2nd position value is 23, i.e. one
+- 14. The 2nd position value is 24, i.e. one
+- 15. etc.
+
+3. Bitwise Operators (tutorials point)
+- 1. &
+  = 1. Binary AND Operator copies a bit to the result if it exists in both operands
+  = 2. (A & B) = 12, i.e., 0000 1100
+
+- 2. |
+  = 1. Binary OR Operator copies a bit to the result if it exists in either operands
+  = 2. (A | B) = 61, i.e., 0011 1101
+
+- 3. ^
+  = 1. Binary XOR Operator copies the bit if it is set in one operand but not both
+  = 2. (A ^ B) = 49, i.e., 0011 0001
+
+- 4. ~
+  = 1. Binary Ones Complement Operator is unary and has the effect of 'flipping' bits
+  = 2. (~A) = -61, i.e., 1100 0011 in 2's complement form
+
+- 4. <<
+  = 1. Binary Left Shift Operator. The left operands value is moved left by the number of bits specified by the right operand
+  = 2. A << 2 = 240 i.e., 1111 0000
+
+- 4. >>
+  = 1. Binary Right Shift Operator. The left operands value is moved left by the number of bits specified by the right operand
+  = 2. A >> 2 = 15 i.e., 0000 1111
 
 
 
