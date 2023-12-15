@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-int f (int n) {
-    int value = n;
-    
-    if (value > 1) f(value / 2);
-    return value;
+void f (int n) {
+    if (n > 1) f(n / 2);
+    printf("%d", n % 2);
+//    return n;
 }
 
 int main() {
@@ -17,7 +16,16 @@ int main() {
     int a2 = 60;
     int b2 = 13;
     
-    printf("A: ", f(a % 2), f(a1 % 2), f(a2 % 2));
-    printf("B: %d %d %d\n", b, b1, b2);
+    printf("A: ");
+    f(a); printf(" "); f(a1); printf(" "); f(a2);
+    printf("\n");
+//    printf(" A: ", f(a % 2));
+//    printf(" A1: ", f(a1));
+//    printf(" A2: \n", f(a2));
+
+//    printf("B: %d %d %d\n", b, b1, b2);
+    printf("B: ");
+    f(b); printf(" "); f(b1); printf(" "); f(b2);
+    printf("\n");
 }
 
