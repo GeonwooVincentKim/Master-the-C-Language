@@ -28,4 +28,3 @@ int main() {
     f(b); printf(" "); f(b1); printf(" "); f(b2);
     printf("\n");
 }
-
