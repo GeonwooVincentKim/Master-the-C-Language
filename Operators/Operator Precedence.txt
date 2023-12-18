@@ -1,0 +1,43 @@
+Overview
+- 1. Operator precedence determines the grouping of terms in an expression and decides how an expression is evaluated
+  = 1. Dictates the order of evaluation when two operators share an operand
+  = 2. Certain operators have higher precedence than others
+  = 3. For example, the multiplication operator has a higher precedence than the addition operator
+
+x = 7 + 3 * 2;
+
+- 2. Can result in 13 or 20 depending on the order of each operands evaluation
+- 3. The order of executing the various operations can make a difference, so C needs unambiguous rules for choosing what to do first
+
+- 4. In C, x is assigned 13, not 20 because operator * has a higher precedence than +
+  = First gets multiplied with 3 * 2 and then adds into 7
+	
+- 5. Each operator is assigned a precedence level
+  = Multiplication and division have a higher precedence than addition and substraction, so they are performed first
+
+- 6. Whatever is enclosed in parentheses is executed first, should just always use () to group expressions
+
+Associativity
+- 1. What if two operators have the same precedence?
+  = Then associativity rules are applied
+
+- 2. If they share an operand, they are executed according to the order in which they occur in the statement
+  = For most operators, the order is from left to right
+
+1 == 2 != 3
+
+- 3. Operators == and != have some precedence
+  = 1. Associativity of both == and != is left to right
+  = 2. The expression on the left is executed first and moves towards the right
+
+- 4. The expression above is equivalent to
+
+((1 == 2) != 3)
+
+- 5. (1 == 2) executes first resulting into 0 (false), then (0 != 3) executes resulting into 1 (true)
+
+
+
+
+ 
+
