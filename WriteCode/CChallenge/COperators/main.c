@@ -15,11 +15,9 @@ int main() {
     int a2 = 60;
     int b2 = 13;
     
-    printf("A: ");
-    f(a); printf(" "); f(a1); printf(" "); f(a2);
+    printf("A: "); f(a); printf(" "); f(a1); printf(" "); f(a2);
     printf("\n");
 
-    printf("B: ");
-    f(b); printf(" "); f(b1); printf(" "); f(b2);
+    printf("B: "); f(b); printf(" "); f(b1); printf(" "); f(b2);
     printf("\n");
 }
