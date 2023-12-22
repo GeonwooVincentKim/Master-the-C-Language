@@ -16,6 +16,5 @@ int main() {
     int result = strcmp(str1, str2);
     
     printf("Result = %d", result);
-    
     return 0;
 }

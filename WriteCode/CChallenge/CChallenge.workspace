@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="CChallenge" Database="" Version="10000">
   <Project Name="CTest" Path="CTest/CTest.project" Active="No"/>
-  <Project Name="CPreprocessor" Path="CPreprocessor/CPreprocessor.project" Active="No"/>
+  <Project Name="CPreprocessor" Path="CPreprocessor/CPreprocessor.project" Active="Yes"/>
   <Project Name="CDataTypes" Path="CDataTypes/CDataTypes.project" Active="No"/>
-  <Project Name="COperators" Path="COperators/COperators.project" Active="Yes"/>
+  <Project Name="COperators" Path="COperators/COperators.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
