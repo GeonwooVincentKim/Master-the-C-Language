@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ COperators - Debug ]----------"
-	@cd "COperators" && "$(MAKE)" -f  "COperators.mk"
+	@echo "----------Building project:[ CControlFlow - Debug ]----------"
+	@cd "CControlFlow" && "$(MAKE)" -f  "CControlFlow.mk"
 clean:
-	@echo "----------Cleaning project:[ COperators - Debug ]----------"
-	@cd "COperators" && "$(MAKE)" -f  "COperators.mk" clean
+	@echo "----------Cleaning project:[ CControlFlow - Debug ]----------"
+	@cd "CControlFlow" && "$(MAKE)" -f  "CControlFlow.mk" clean
