@@ -7,7 +7,8 @@
  * 3. {} <squiggly bracket> 
  * - 1. defines starting of the function (left), and the ending of the function (right)
  * - 2. referred to as a block of code
- * */
+ * 
+ */
 int main() {
     // 4. body - block of code for the function main
     printf("Hi, my name is Geonwoo\n");
