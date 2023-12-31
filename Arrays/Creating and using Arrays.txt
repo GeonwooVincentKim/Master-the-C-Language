@@ -1,0 +1,10 @@
+1. Declaring an Array
+- 1. The data items in an array are referred to as elements
+- 2. The elements in an array have to be the same type (int, long, double, etc.)
+  = You cannot "mix" data types, no such thing as a single array of ints and doubles
+
+- 3. Declaring to use an array in a program is similar to a normal variable that contains a single value
+  = Difference is taht you need a number between square brackets [] following the name
+
+long numbers[10];
+

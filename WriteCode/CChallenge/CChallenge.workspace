@@ -4,7 +4,8 @@
   <Project Name="CPreprocessor" Path="CPreprocessor/CPreprocessor.project" Active="No"/>
   <Project Name="CDataTypes" Path="CDataTypes/CDataTypes.project" Active="No"/>
   <Project Name="COperators" Path="COperators/COperators.project" Active="No"/>
-  <Project Name="CControlFlow" Path="CControlFlow/CControlFlow.project" Active="Yes"/>
+  <Project Name="CControlFlow" Path="CControlFlow/CControlFlow.project" Active="No"/>
+  <Project Name="CTestTest" Path="CTestTest/CTestTest.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="CDataTypes" ConfigName="Debug"/>
       <Project Name="COperators" ConfigName="Debug"/>
       <Project Name="CControlFlow" ConfigName="Debug"/>
+      <Project Name="CTestTest" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="CDataTypes" ConfigName="Release"/>
       <Project Name="COperators" ConfigName="Release"/>
       <Project Name="CControlFlow" ConfigName="Release"/>
+      <Project Name="CTestTest" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=CControlFlow
+ProjectName            :=CTestTest
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=E:/Study/C/Master-the-C-Language/WriteCode/CChallenge
-ProjectPath            :=E:/Study/C/Master-the-C-Language/WriteCode/CChallenge/CControlFlow
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/CControlFlow
+ProjectPath            :=E:/Study/C/Master-the-C-Language/WriteCode/CChallenge/CTestTest
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/CTestTest
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "E:/Study/C/Master-the-C-Language/WriteCode/CChallenge/CControlFlow/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "E:/Study/C/Master-the-C-Language/WriteCode/CChallenge/CTestTest/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 
